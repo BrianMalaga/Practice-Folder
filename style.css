@@ -116,11 +116,12 @@ nav {
     
 }
 
+
 .about-me__picture {
     width: 100%;
    
 
-    /* Improvinf my own picture */
+    /* Improving my own picture */
     transform: scale(2.5);
     padding-top: 16px;
     padding-right: 16px;
@@ -145,4 +146,10 @@ nav {
 
 .about-me__img--container {
     flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img {
+    width: 100%;
 }
