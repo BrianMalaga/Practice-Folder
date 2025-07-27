@@ -162,6 +162,7 @@ nav {
 
 .about-me__img {
     width: 100%;
+    margin-top: 100px;
 }
 
 /* TECK - STACK */
@@ -214,9 +215,16 @@ nav {
     color: #6030b1;
 }
 
-/* PROJECT */
+/* PROJECTs */
 
 .project__img {
     width: 100%;
+}
+
+.project__wrapper {
+    box-shadow: 0 20px 88px rgba(0,0,0,0.45);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
 }
 
